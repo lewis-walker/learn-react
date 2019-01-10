@@ -1,0 +1,46 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "",
+  "sideEffects": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config=config/webpack.dev.js",
+    "start": "webpack-dev-server --open --config=config/webpack.dev.js",
+    "build:prod": "webpack --config=config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewis-walker/learn-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewis-walker/learn-react/issues"
+  },
+  "homepage": "https://github.com/lewis-walker/learn-react#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.8.2",
+    "@material-ui/icons": "^3.0.2",
+    "@uirouter/react": "^0.8.7",
+    "immutability-helper": "^2.9.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "typeface-roboto": "0.0.54"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.0.11",
+    "@types/react-redux": "^6.0.12",
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  }
+}
